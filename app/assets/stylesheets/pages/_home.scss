@@ -95,3 +95,25 @@ body {
 .card-link:hover {
   opacity: 0.1;
 }
+
+.broken {
+  color: $light-gray;
+  padding: 20px;
+  a {
+    color: $ivory;
+  }
+}
+
+.center {
+  background-color: $blue-3;
+  text-align: center;
+  padding: 50px;
+}
+
+.invite {
+  padding: 30px 0;
+}
+
+.goldhana {
+  padding: 50px;
+}

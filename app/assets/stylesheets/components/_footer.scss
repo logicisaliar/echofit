@@ -1,21 +1,29 @@
 
 .footer {
+  margin-top: 50px;
   position: relative;
   bottom: 0;
   width: 100%;
-  background: $ivory;
   display: flex;
   justify-content: space-between;
+  background: $ivory;
   padding: 0px 10px;
   color: rgba(0,0,0,0.3);
   p {
-    padding-left: 20px;
-    padding-top: 30px;
+    padding-top: 20px;
     strong {
       color: black;
     }
   }
+  img {
+    padding-top: 20px;
+  }
 }
+
+.footer-block {
+  display: block;
+}
+
 .footer-links {
   display: flex;
 }
