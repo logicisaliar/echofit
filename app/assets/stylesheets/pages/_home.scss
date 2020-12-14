@@ -1,4 +1,8 @@
 // Specific CSS for your home-page
+body {
+  background: $blue-3;
+}
+
 * {
   font-family: 'Comfortaa', cursive;
  }
@@ -46,7 +50,7 @@
 }
 
 #wedding {
-  background-color: $blue-3;
+  background-color: $blue-2;
 }
 #party {
   background-color: $blue-1;
