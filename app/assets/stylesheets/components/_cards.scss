@@ -9,6 +9,10 @@
   // border-top: 15px solid rgba($red, 0.2);
 }
 
+.card-description {
+  color: $blue-3;
+}
+
 .card-product:hover {
   // color: $red;
   background: rgba($blue-2, 0.1);
@@ -37,4 +41,9 @@
 
 .card-product .card-product-infos {
   padding: 10px 50px;
+}
+
+.card-product-infos {
+  border: 1px solid $ivory;
+  flex: 0 0 100%;
 }
