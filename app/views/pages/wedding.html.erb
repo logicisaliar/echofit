@@ -1,11 +1,33 @@
-  <p>
+<div class="broken">
+  <h5>
     Hello!
-<br>
-<br>
-We hope that you and your loved ones are safe in these difficult times. We did not have you over at our wedding, but we had you in our hearts so we have reached out to you in the easiest way we could think of.</p>
-<div class="invite">
-  <%#= image_tag("https://res.cloudinary.com/logicisaliar/image/upload/a_0/v1607966568/Wedding/WhatsApp_Image_2020-12-14_at_4.06.43_PM.jpg", width: "100%") %>
-</div>
-<div class="center">
-  <%= render 'shared/design'%>
+    <br>
+    <br>
+    We hope that your loved ones and you are safe in these difficult times. We did not have you over at our wedding, but we had you in our hearts so we have reached out to you in the most convenient way we could think of. We hope you liked the delicacies*. The wedding would have been a nicer way for the new couple to meet you, but we've tried our shot at whatever little we could around here. Because we know you care.
+  </h5>
+  <h6>
+    <br>
+    *If you didn't receive 'the delicacies', then either you're far, far, away. Come back, माँ आपके बारे में सोचती है, OR, you're just stalking us. The next section is perfect for you (and also a lot of our relatives, but we can't say it to them directly, so you guys)
+  </h6>
+  <h3>
+    Bacho ko Naapo aur Tolo
+  </h3>
+  <div class="btn-center">
+    <%= link_to "See pictures", pages_pictures_path, class: "btn-all" %>
+    <br>
+    <br>
+    <%= link_to "Interview us", pages_askthem_path, class: "btn-all" %>
+    <br>
+    <br>
+    <%= link_to "Interview her", pages_askher_path, class: "btn-all" %>
+    <br>
+    <br>
+    <%= link_to "Interview him", pages_askhim_path, class: "btn-all" %>
+  </div>
+  <div class="invite">
+    <%#= image_tag("https://res.cloudinary.com/logicisaliar/image/upload/a_0/v1607966568/Wedding/WhatsApp_Image_2020-12-14_at_4.06.43_PM.jpg", width: "100%") %>
+  </div>
+  <div class="center">
+    <%= render 'shared/design'%>
+  </div>
 </div>

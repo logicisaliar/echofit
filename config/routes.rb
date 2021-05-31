@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   root to: 'pages#home'
   get '/pages/askthem', to: 'pages#askthem'
   get '/pages/askher', to: 'pages#askher'
+  get '/pages/secret', to: 'pages#secret'
   get '/pages/askhim', to: 'pages#askhim'
   get '/pages/stalkus', to: 'pages#stalkus'
   get '/pages/goldhana', to: 'pages#goldhana'

@@ -1,21 +1,47 @@
 
 <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,108,168,0.1) 0%, rgba(0,36,61,0.1) 50%), url('https://res.cloudinary.com/logicisaliar/image/upload/a_0/v1607962428/Wedding/WhatsApp_Image_2020-12-14_at_5.23.28_PM.jpg');">
   <div class="banner-content">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-      <%= link_to "See better pictures", pages_pictures_path, class: "btn btn-primary btn-lg" %>
 
     <!-- <a href="https://chat.whatsapp.com/BdYZOCdrrk9EQgecLGQfv1" class="btn btn-primary btn-lg">See better pictures</a> -->
     <!-- <h3>Join one, join all. Please do not accuse us later.</h3> -->
 </div>
 </div>
 <div class="margin-top"></div>
-<div class="row">
-  <div class="col-xs-12 col-sm-4">
+<div class="broken">
+  <h5>
+    Hello!
+    <br>
+    <br>
+    We hope that your loved ones and you are safe in these difficult times. We did not have you over at our wedding, but we had you in our hearts so we have reached out to you in the most convenient way we could think of. We hope you liked the delicacies*. The wedding would have been a nicer way for the new couple to meet you, but we've tried our shot at whatever little we could around here. Because we know you care.
+  </h5>
+  <h6>
+    <br>
+    *If you didn't receive 'the delicacies', then either you're far, far, away. Come back, माँ आपके बारे में सोचती है, OR, you're just stalking us. The next section is perfect for you (and also a lot of our relatives, but we can't say it to them directly, so you guys)
+  </h6>
+  <br>
+  <h4>
+    Gossip begins here:
+  </h4>
+  <br>
+  <div class="btn-center">
+    <%= link_to "Pictures please", pages_pictures_path, class: "btn btn-flat" %>
+    <br>
+    <%= link_to "Interview them", pages_askthem_path, class: "btn btn-flat" %>
+    <br>
+    <%= link_to "Interview her", pages_askher_path, class: "btn btn-flat" %>
+    <br>
+    <%= link_to "Interview him", pages_askhim_path, class: "btn btn-flat" %>
+  </div>
+  <div class="invite">
+    <%#= image_tag("https://res.cloudinary.com/logicisaliar/image/upload/a_0/v1607966568/Wedding/WhatsApp_Image_2020-12-14_at_4.06.43_PM.jpg", width: "100%") %>
+  </div>
+  <div class="center">
+    <%= render 'shared/design'%>
+  </div>
+</div>
+
+<!-- <div class="row">
+  <div class="col-xs-12 col-sm-6">
     <div class="card" id="wedding">
       <div class="card-description">
         <h2>The Wedding</h2>
@@ -25,7 +51,7 @@
     </div>
   </div>
 
-  <div class="col-xs-12 col-sm-4">
+  <div class="col-xs-12 col-sm-6">
     <div class="card" id="goldhana">
       <div class="card-description">
         <h2>Gol Dhana</h2>
@@ -35,8 +61,8 @@
     </div>
   </div>
 
-
-  <div class="col-xs-12 col-sm-4">
+<div class="hidden">
+  <div class="col-xs-12 col-sm-6">
     <div class="card" id="party">
       <div class="card-description">
         <h2>Dance Party/Sangeet</h2>
@@ -46,4 +72,6 @@
     </div>
   </div>
 </div>
+</div>
 <div class="margin-top"></div>
+ -->
