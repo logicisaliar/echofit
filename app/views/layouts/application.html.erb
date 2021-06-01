@@ -21,7 +21,9 @@
   </script>
 </head>
 <body>
+<%# unless action_name == "home" %>
   <%= render 'shared/navbar' %>
+<%# end %>
   <%= yield %>
   <%= render 'shared/footer' %>
   <%= javascript_include_tag 'application' %>
