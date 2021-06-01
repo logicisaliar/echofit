@@ -33,14 +33,34 @@ body {
 
 .banner-content {
   a {
+    background-color: white;
     font-weight: bold;
     font-size: 20px;
-    color: black;
+    color: $blue-3;
     position: relative;
-    bottom: -160px;
-    left: -55px;
+    bottom: -40px;
+    animation: myanimation 5s infinite;
   }
 }
+
+@keyframes myanimation {
+  0% {
+    background-color: $blue-1;
+  }
+  25%{
+    background-color: $blue-2;
+  }
+  50%{
+    background-color: $blue-1;
+  }
+  75%{
+    background-color: $blue-2;
+  }
+  100% {
+    background-color: $blue-1;
+  }
+}
+
 .margin-top {
   margin-top: 20px;
 }
